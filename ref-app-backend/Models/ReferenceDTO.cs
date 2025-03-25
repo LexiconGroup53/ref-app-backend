@@ -9,6 +9,8 @@ public class ReferenceDTO
     public string Creator { get; set; }
     public string Date { get; set; }
     public string Language { get; set; }
+    public string Publisher { get; set; }
+    
 
 
     public ReferenceDTO()

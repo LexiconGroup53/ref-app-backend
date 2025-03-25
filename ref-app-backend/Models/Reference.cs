@@ -9,6 +9,7 @@ public class Reference
     public string Creator { get; set; }
     public string Date { get; set; }
     public string Language { get; set; }
+    public string Publisher { get; set; }
 
     public Reference()
     {
@@ -24,5 +25,6 @@ public class Reference
         Creator = dto.Creator;
         Date = dto.Date;
         Language = dto.Language;
+        Publisher = dto.Publisher;
     }
 }
